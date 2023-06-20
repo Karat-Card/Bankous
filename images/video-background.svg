@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="567px" height="308px" viewBox="0 0 567 308" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Rectangle 20</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <pattern id="pattern-1" width="12" height="12" x="-14" y="-14" patternUnits="userSpaceOnUse">
+            <use xlink:href="#image-2" transform="scale(0.25,0.25)"></use>
+        </pattern>
+        <image id="image-2" width="48" height="48" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAABGdBTUEAALGPC/xhBQAAAThJREFUaAXtmE0KwkAMhZPZuXXtHXoFL+TWQ7j1EF7DK3gHwZ1bdx0nhUDRaTI2CgWfIFPz85j31Q40RPiAAAiAAAj8MwFuMb/aXTaU6cB93kp9Tnwmpv3j2F1b+r2aiL5rQMS5p0vOeT3eCDPfc6IuaiKqn8abql4X8q+bl7ohVnLVnk+CQX3XgP5tanuycrX6WszSsHKq5RrQwqWuroHhgZ3YvZWbaHkLWxpWToVcA3LayAOrDboOsZLT37PXoL5rQE4ZOW0o8akcWTf5yvU3TiAx/Wv92WDRCAIgAAIgAAIgAAIgAAIgsHgC7lhFHETmNi0EIvqugejcxjMQ1XdfKWUih7mQcRus2Y+VU0n/DmjlQlfXgDWbsXKtfi0NK6f6rgHMhRTVxIq50AQYhEEABEAABJoIPAFxqc8VIaapUgAAAABJRU5ErkJggg=="></image>
+    </defs>
+    <g id="landing-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <rect id="Rectangle-20" fill="url(#pattern-1)" x="-2" y="-2" width="570" height="313"></rect>
+    </g>
+</svg>

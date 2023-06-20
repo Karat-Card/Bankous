@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="206px" height="353px" viewBox="0 0 206 353" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 24</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="206" height="353"></rect>
+    </defs>
+    <g id="landing-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Extra-large:-Desktops---12-col" transform="translate(-450.000000, -5224.000000)">
+            <g id="Group-42-Copy" transform="translate(0.000000, 4708.000000)">
+                <g id="Group-17" transform="translate(165.000000, 231.000000)">
+                    <g id="Group-15" transform="translate(285.000000, 285.000000)">
+                        <g id="Group-24">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="Rectangle-6"></g>
+                            <rect id="Rectangle-10-Copy-5" stroke="#FFFFFF" mask="url(#mask-2)" x="-142.5" y="-353.5" width="348" height="706" rx="49.3000014"></rect>
+                            <rect id="Rectangle-13" stroke="#FFFFFF" mask="url(#mask-2)" x="200.5" y="280.420673" width="5" height="4.09855769"></rect>
+                            <path d="M-56.3014473,-330.206731 C-56.3014473,-332.746444 -58.3602917,-334.805288 -60.900005,-334.805288 L-93.6292683,-334.805288 C-110.277478,-334.805288 -123.773171,-321.332742 -123.773171,-304.713942 L-123.773171,303.713942 C-123.773171,320.332742 -110.277478,333.805288 -93.6292683,333.805288 L156.629268,333.805288 C173.277478,333.805288 186.773171,320.332742 186.773171,303.713942 L186.773171,-304.713942 C186.773171,-321.332742 173.277478,-334.805288 156.629268,-334.805288 L122.188212,-334.805288 C119.648499,-334.805288 117.589654,-332.746444 117.589654,-330.206731 C117.589654,-318.666973 108.21911,-309.3125 96.660386,-309.3125 L-35.372179,-309.3125 C-46.9309028,-309.3125 -56.3014473,-318.666973 -56.3014473,-330.206731 Z" id="Combined-Shape" stroke="#FFFFFF" fill-opacity="0.0995244565" fill="#E6F2FF" mask="url(#mask-2)"></path>
+                            <rect id="Rectangle-10-Copy-5" stroke="#FFFFFF" mask="url(#mask-2)" x="-137.392683" y="-348.401442" width="337.785366" height="695.802885" rx="44.2000012"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

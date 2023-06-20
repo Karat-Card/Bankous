@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="491px" height="351px" viewBox="0 0 491 351" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>mac 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M15.9674135,0.96747981 L491,0 L491,352 L0,352 L3.55271368e-15,16.9674466 C2.47210581e-15,8.14361377 7.14359896,0.985450919 15.9674135,0.96747981 Z" id="path-1"></path>
+    </defs>
+    <g id="landing-page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Extra-large:-Desktops---12-col" transform="translate(-784.000000, -5413.000000)">
+            <g id="Group-42-Copy" transform="translate(0.000000, 4708.000000)">
+                <g id="Group-17" transform="translate(165.000000, 231.000000)">
+                    <g id="mac-2" transform="translate(619.000000, 473.000000)">
+                        <path d="M15.9674135,0.96747981 L491,0 L491,352 L0,352 L3.55271368e-15,16.9674466 C2.47210581e-15,8.14361377 7.14359896,0.985450919 15.9674135,0.96747981 Z" id="path-1" fill-rule="nonzero"></path>
+                        <g id="mac-Clipped">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <g id="path-1"></g>
+                            <g id="mac" mask="url(#mask-2)">
+                                <g transform="translate(0.000000, 1.000000)" id="Group">
+                                    <g>
+                                        <path d="M16,1 C7.71572875,1 1,7.71572875 1,16 L1,686 C1,694.284271 7.71572862,701 16,701 L686,701 C694.284272,701 701,694.284272 701,686 L701,16 C701,7.71572862 694.284271,1 686,1 L16,1 Z" id="Combined-Shape" stroke="#FFFFFF"></path>
+                                        <g id="Group-23" transform="translate(34.000000, 29.000000)" stroke="#FFFFFF">
+                                            <rect id="Rectangle-path" fill-opacity="0.0995244565" fill="#E6F2FF" x="1" y="0.5" width="635" height="465" rx="3"></rect>
+                                            <g id="Group-32-Clipped" transform="translate(10.000000, 12.000000)" fill="#096AD0" fill-rule="nonzero">
+                                                <g id="Group-32" transform="translate(-0.000000, 0.000000)">
+                                                    <g id="Group" transform="translate(0.136691, 0.196721)">
+                                                        <ellipse id="Oval" cx="4.56834532" cy="4.57377049" rx="3.56834532" ry="3.57377049"></ellipse>
+                                                        <ellipse id="Oval-Copy" cx="22.8417266" cy="4.57377049" rx="3.56834532" ry="3.57377049"></ellipse>
+                                                        <ellipse id="Oval-Copy-2" cx="41.1151079" cy="4.57377049" rx="3.56834532" ry="3.57377049"></ellipse>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                            <path d="M1,33 L459.529628,33" id="Path" fill="#E6F2FF"></path>
+                                        </g>
+                                        <circle id="Oval-2" stroke="#FFFFFF" cx="351.5" cy="15.5" r="4.5"></circle>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
