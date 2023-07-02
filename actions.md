@@ -28,7 +28,7 @@ July 2, 2023 09:08 58s
 
 <summary></summary>
 
-* [View workflow file](.gitbook/assets/workflow)
+* [View workflow file](<.gitbook/assets/workflow (1)>)
 
 </details>
 
@@ -44,7 +44,7 @@ July 2, 2023 09:06 51s
 
 <summary></summary>
 
-* [View workflow file](<.gitbook/assets/workflow (2)>)
+* [View workflow file](.gitbook/assets/workflow)
 
 </details>
 
@@ -60,6 +60,6 @@ June 20, 2023 06:14 54s
 
 <summary></summary>
 
-* [View workflow file](<.gitbook/assets/workflow (1)>)
+* [View workflow file](<.gitbook/assets/workflow (2)>)
 
 </details>
