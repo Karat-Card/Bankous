@@ -2,6 +2,38 @@
 <!--  Last Published: Tue Jun 20 2023 06:03:49 GMT+0000 (Coordinated Universal Time)  -->
 <html data-wf-page="648836229978b2afdcedd678" data-wf-site="6487ac8fc3473ff5e50aa2ef">
 <head>
+  <!-- Head content -->
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-auth.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.6.1/firebase-firestore.js"></script>
+  <script>
+    // Initialize Firebase
+    var firebaseConfig = {
+      apiKey: "AIzaSyCq75IO3RJWeLErzkDkkKnbBue8rHNLfNQ",
+      authDomain: "bankous-37a5f.firebaseapp.com",
+      projectId: "bankous-37a5f",
+      storageBucket: "bankous-37a5f.appspot.com",
+      messagingSenderId: "457344268462",
+      appId: "1:457344268462:web:e4b0242f7a68863ae5553f",
+      measurementId: "G-V715DCRLC9"
+    };
+    firebase.initializeApp(firebaseConfig);
+
+    // Check user authentication status
+    function checkLogin() {
+      firebase.auth().onAuthStateChanged(function(user) {
+        if (user) {
+          // User is signed in, allow access to the page
+        } else {
+          // User is not signed in, redirect to login page
+          window.location.href = "/login.html";
+        }
+      });
+    }
+
+    // Call the checkLogin function to run the authentication check
+    checkLogin();
+  </script>
   <meta charset="utf-8">
   <title>Create React</title>
   <meta content="Create React" property="og:title">
