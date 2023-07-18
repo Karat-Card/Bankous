@@ -19,3 +19,42 @@ const firebaseConfig = {
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const analytics = getAnalytics(app);
+
+function login(event) {
+  event.preventDefault(); // Prevent form submission
+
+  // Get the form elements
+  var emailInput = document.getElementById("wf-log-in-email");
+  var passwordInput = document.getElementById("wf-log-in-password");
+
+  // Get the input values
+  var email = emailInput.value;
+  var password = passwordInput.value;
+
+  // Optional: Perform form validation before making the login request
+  if (!email || !password) {
+    alert("Please enter both email and password");
+    return;
+  }
+
+  // Perform login with Firebase Authentication
+  auth.signInWithEmailAndPassword(email, password)
+    .then(function(userCredential) {
+      // Login successful
+      var user = userCredential.user;
+      console.log("Logged in user:", user);
+
+      // Optional: Redirect to another page after successful login
+      window.location.href = "/dashboard.html";
+    })
+    .catch(function(error) {
+      // Handle any login errors
+      console.error(error);
+      alert("Login failed. Please try again.");
+    });
+
+  // Clear the input fields after submission
+  emailInput.value = "";
+  passwordInput.value = "";
+}
+
