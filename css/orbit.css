@@ -1,0 +1,250 @@
+.solarsystem {
+  font-size: 16px;
+  height: 20em;
+  perspective: 2000px;
+  position: relative;
+  transform-style: preserve-3d;
+  width: 100vw;
+}
+
+.solarsystem * {
+  transform-style: preserve-3d;
+}
+
+.solarsystem:hover .has-orbit {
+  transform: rotateX(70deg);
+}
+
+@media (min-width: 600px) {
+  .solarsystem {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .solarsystem {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .solarsystem {
+    font-size: 28px;
+  }
+}
+
+.manifold-logo {
+  left: 50%;
+  height: 3em;
+  position: absolute;
+  top: 0;
+  transform: translate(-50%, -50%) rotateX(-70deg);
+  width: 3em;
+}
+
+.manifold-logo svg {
+  height: auto;
+  width: 100%;
+}
+
+.has-orbit {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: rotateX(75deg);
+  transform-style: preserve-3d;
+  transition: transform 700ms cubic-bezier(0.5, 0, 0.5, 1);
+  width: 100%;
+}
+
+.orbit {
+  animation-name: orbit;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform-style: preserve-3d;
+}
+
+.orbit::before {
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px rgba(177, 245, 246, 0.15);
+  content: "";
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.orbit:nth-of-type(1) {
+  animation-duration: 29s;
+  height: 10em;
+  margin-left: -5em;
+  margin-top: -5em;
+  width: 10em;
+}
+
+.orbit:nth-of-type(1) .logo {
+  animation-duration: 29s;
+}
+
+.orbit:nth-of-type(2) {
+  animation-direction: reverse;
+  animation-duration: 37s;
+  height: 18em;
+  margin-left: -9em;
+  margin-top: -9em;
+  width: 18em;
+}
+
+.orbit:nth-of-type(2) .logo {
+  animation-direction: reverse;
+  animation-duration: 37s;
+}
+
+/* ... Remaining orbit styles ... */
+
+.logo {
+  animation-duration: 5s;
+  animation-name: counter-orbit;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  border-radius: 50%;
+  height: 2em;
+  left: 0;
+  margin-left: -1em;
+  margin-top: -1em;
+  opacity: 0.8;
+  position: absolute;
+  top: 50%;
+  transform-style: preserve-3d;
+  width: 2em;
+}
+
+/* ... Remaining logo styles ... */
+
+.planet {
+  animation-name: counter-orbit;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  background-image: linear-gradient(-243deg, #FF3758 0%, #054E91 100%);
+  border-radius: 50%;
+  box-shadow: none;
+  height: 1.5em;
+  left: 85%;
+  opacity: 0.6;
+  top: 12.5%;
+  width: 1.5em;
+}
+
+/* ... Remaining planet styles ... */
+
+.belt {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transform: rotateY(75deg);
+  transform-style: preserve-3d;
+  width: 100%;
+}
+
+/* ... Remaining belt styles ... */
+
+.belt-path {
+  animation-duration: 19s;
+  animation-name: orbit;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  height: 20em;
+  left: 50%;
+  margin-left: -37.5vw;
+  margin-top: -18.75vw;
+  top: 50%;
+  position: absolute;
+  transform-style: preserve-3d;
+  width: 40em;
+}
+
+/* ... Remaining belt-path styles ... */
+
+.belt-asteroid {
+  animation-duration: 19s;
+  animation-name: asteroid-counter;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  box-shadow: 0 0 0 2px #3AC3A8;
+  border-radius: 50%;
+  height: 1em;
+  left: 75%;
+  margin-left: -6.5px;
+  margin-top: -6.5px;
+  opacity: 0.3;
+  position: absolute;
+  top: 50%;
+  transform-style: preserve-3d;
+  width: 1em;
+}
+
+/* ... Remaining belt-asteroid styles ... */
+
+.belt--4 {
+  transform: rotateY(65deg);
+}
+
+.belt--4 .belt-asteroid {
+  left: 12.5%;
+  height: 0.375em;
+  top: 42.5%;
+  width: 0.375em;
+}
+
+/* ... Remaining belt--4 styles ... */
+
+/* ... Remaining belt--5 styles ... */
+
+@keyframes orbit {
+  to {
+    transform: rotateZ(-360deg);
+  }
+}
+
+@keyframes counter-orbit {
+  from {
+    transform: rotateX(-90deg) rotateY(360deg);
+  }
+  to {
+    transform: rotateX(-90deg) rotateY(0deg);
+  }
+}
+
+@keyframes counter-orbit-2 {
+  from {
+    transform: rotateX(-90deg) rotateY(0deg);
+  }
+  to {
+    transform: rotateX(-90deg) rotateY(360deg);
+  }
+}
+
+@keyframes asteroid-counter {
+  from {
+    transform: rotateY(-90deg) rotateX(0deg);
+  }
+  to {
+    transform: rotateY(-90deg) rotateX(360deg);
+  }
+}
+
+.instructions {
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 12px;
+  letter-spacing: 0.025em;
+  pointer-events: none;
+  text-align: center;
+  text-transform: uppercase;
+}
