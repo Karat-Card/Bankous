@@ -1,5 +1,4 @@
-<!DOCTYPE html><!--  This site was created in Webflow. https://www.webflow.com  -->
-<!--  Last Published: Tue Jun 20 2023 06:03:49 GMT+0000 (Coordinated Universal Time)  -->
+<!DOCTYPE html>
 <html data-wf-page="648836229978b2afdcedd678" data-wf-site="6487ac8fc3473ff5e50aa2ef">
 <head>
   <!-- Head content -->
@@ -68,80 +67,11 @@
           </div>
         </div>
       </div>
-      <div class="w-col w-col-10">
-        <div class="w-embed">
-          <!DOCTYPE html>
-          <html>
-          <head>
-            <title>React Code Block with package.json</title>
-            <style>
-    .code-block {
-      margin: 20px;
-      padding: 20px;
-      background-color: #f2f2f2;
-    }
-    textarea {
-      width: 100%;
-      height: 200px;
-      margin-bottom: 10px;
-    }
-    button {
-      display: block;
-      margin: 10px auto;
-    }
-    #object-output {
-      margin-top: 10px;
-      border: 1px solid #ccc;
-      padding: 10px;
-      background-color: #fff;
-      white-space: pre-wrap;
-    }
-  </style>
-          </head>
           <body>
            <!-- Add the following code to your HTML file -->
 
-<!-- React Code Block -->
-<div id="react-code-block">
-  <textarea id="react-code" style="width: 100%; height: 300px;"></textarea>
-  <button onclick="previewReactCode()">Preview</button>
-</div>
 
-<!-- Package.json Code Block -->
-<div id="package-json-code-block">
-  <textarea id="package-json-code" style="width: 100%; height: 300px;"></textarea>
-</div>
-
-<!-- Preview Block -->
-<div id="preview-block"></div>
-
-<script src="https://unpkg.com/react@17/umd/react.development.js"></script>
-<script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
-<script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
-
-<script type="text/babel">
-  function previewReactCode() {
-    const reactCode = document.getElementById('react-code').value;
-    const packageJsonCode = document.getElementById('package-json-code').value;
-
-    // Check if the necessary packages are included in the package.json
-    const packageJson = JSON.parse(packageJsonCode);
-    if (!packageJson.dependencies.react || !packageJson.dependencies['react-dom']) {
-      alert('Please include react and react-dom in your package.json dependencies');
-      return;
-    }
-
-    // Render the React code
-    const previewBlock = document.getElementById('preview-block');
-    ReactDOM.render(eval(reactCode), previewBlock);
-  }
-</script>
-          </body>
-          </html>
-        </div>
-      </div>
-    </div>
-  </section>
+   
   <div data-animation="default" class="navbar fixed w-nav" data-easing2="ease" data-easing="ease" data-collapse="all" role="banner" data-no-scroll="1" data-duration="400" data-doc-height="1">
     <div class="wrapper navbar">
       <a href="../index.html" data-w-id="d782bdad-e438-b551-49d2-81bae0d90bc3" class="logo rel w-inline-block"><img src="../images/bankous-removebg-preview.png" width="400" height="75" sizes="220px" srcset="../images/bankous-removebg-preview-p-500.png 500w, ../images/bankous-removebg-preview.png 645w" alt="" class="logo-navbar white"></a>
