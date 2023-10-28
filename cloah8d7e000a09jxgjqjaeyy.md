@@ -5,6 +5,7 @@ seoDescription: "Discover how to build a robust Python loan underwriting system.
 datePublished: Sat Oct 28 2023 20:10:27 GMT+0000 (Coordinated Universal Time)
 cuid: cloah8d7e000a09jxgjqjaeyy
 slug: building-a-comprehensive-loan-underwriting-module
+cover: https://cdn.hashnode.com/res/hashnode/image/upload/v1698532152963/ecb5ddb1-6b4a-4d34-b1dc-4c86d87df373.gif
 ogImage: https://cdn.hashnode.com/res/hashnode/image/upload/v1698523701913/28211677-5700-4070-b233-7263bfa5284f.gif
 tags: ai, python, data-science, machine-learning, fintech
 
